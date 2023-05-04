@@ -1,0 +1,68 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+#wrapper{
+    /* display: grid; */
+    text-align: center;
+    /* grid-template-columns: repeat(4,25%); */
+    background-color:lightgray;
+
+}
+
+.imagen {
+    /* width: 185px;*/
+    height: 250px; 
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.carritoDOM{
+  width: 400px;
+}
+
+.botonFin{
+  
+}
+
+/* .tarjetas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+  } */
+
+.contenedor_registro{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(147, 141, 141);
+  height: 200px;
+  width: 250px;
+  margin-top: 50px;
+}
+
+button {
+   margin: auto;  
+   text-align: center;
+
+}
+
+@media (max-width: 600px){
+    #contenedorProductos{
+      grid-template-columns: repeat(2,48%);
+      }
+}
+
+/*Inicio de @media 540 */
+@media (max-width: 540px){
+#contenedorProductos{
+  grid-template-columns: repeat(2,48%);
+  }
+}
+
+
